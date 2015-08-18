@@ -27,9 +27,7 @@ str(dt.label)
 #4. Appropriately labels the dataset with descriptive variable names
 names(dt.subject) <- "Subject"
 names(dt.label) <- "Activity"
-
 dt.final <- cbind(dt.subject, dt.label, dt.MandSD)
-write.table(dt.final, "tidy data.txt", row.names=FALSE)
 
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 library(dplyr)
