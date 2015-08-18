@@ -3,7 +3,7 @@ Getting and Cleaning Data in Data Science course of COURSERA_ COURSE PROJECT
 
 This is for describing how the script(run_analysis.R) works 
 
-Instruction for executing "run_analysis.R"
+#Instruction for executing "run_analysis.R"
  
  1. Download the data from website (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
  
