@@ -1,21 +1,36 @@
 Getting and Cleaning Data in Data Science course of COURSERA_ COURSE PROJECT
+====================================================================================
 
 This is a code book describing the variables and summarizing I calculated.
 
-Describe the code and variables
+#Describe the code and variables
+
 1. Merges the training and the test sets to create on data set.
+
 	1-1. read each data using read.table
+	
 	1-2. variables
+	
 		train:  traning set measurement data (7352 obs. and 561 variables)
+		
 		train.label:  labels for activities of training set (7352 obs. and 1 variable)
+		
 		train.subject:  no. for subjects of training set (7352 obs. and 1 variable)
+		
 		test:  test set measurement data (2947 obs. and 561 variables)
+		
 		test.label:  labels for activities of test set (2947 obs. and 1 variable)
+		
 		test.subject:  no. for subjects of test set (2947 obs. and 1 variable)
+		
 		dt:  mearged data set of train and test (10299 obs. and 561 variables)
+		
 		dt.label:  merged data set of train.label and test.label (10299 obs. and 1 variable)
+		
 		dt.subject: merged data set of train.subject and train.subject (10299 obs. and 1 variable)
+		
 2. Extracts only the measurements on the mean and standard deviation for each measurement
+
 	2-1. read the "features.txt" which is names of each measurment as 'ft' (561 obs. and 2 variables)
 	2-2. change column names of dt according to 'ft'("features.txt")
 	2-3. take the indices('MandSD.index') for the measurements on the mean('mean') and standard deviation('std') using regular expression (66 length integer vector)
