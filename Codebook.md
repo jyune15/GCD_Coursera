@@ -61,7 +61,7 @@ This is a code book describing the variables and summarizing I calculated.
 	
 		6 activities and 30 subjects ---> 180 rows
 		
-	        numbers of each measurement(66), subjects and activities ---> 68 varialbes
+	        numbers of each measurement(66), subjects and activities ---> 68 variables
 	        
 	5-3. Save the last data set in step 5 ('dt.final_avrByGr') as "tidy data_avr.txt".
 	
